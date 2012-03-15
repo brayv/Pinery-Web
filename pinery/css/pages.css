@@ -64,6 +64,7 @@ body .cke_show_borders {
 }
 
 #header .section {
+  height: 122px;
 }
 
 #logo /* Wrapping link for logo */ {
@@ -141,6 +142,9 @@ div#site-name /* The name of the website */ {
 }
 #standardPages p {
   color:white;
+}
+#standardPages .views-field-body p {
+  color:black;
 }
 #mission /* The mission statement of the site (displayed on homepage) */ {
 }
@@ -349,7 +353,7 @@ ul.links li {
   clip: rect(1px, 1px, 1px, 1px);
 }
 #commonWrapper {
-  background:url('/sites/all/themes/pinery/images/bg3.jpg') no-repeat fixed 50% 0;
+  background:url('/sites/all/themes/pinery/images/slateBg1.jpg') no-repeat fixed 50% 0;
   color:white;
   height:1800px;
 }
@@ -475,4 +479,7 @@ ul.links li {
 }
 #cke_contents_edit-body {
   color:white;
+}
+.views-field-body {
+  color:black;
 }
